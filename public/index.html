@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lusiada Chess</title>
+    <link rel="stylesheet" href="lib/chessboard-1.0.0.min.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/chessboard-1.0.0.min.js"></script>
+    <script type="module" src="client.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="gameBoard"></div>
+    <div id="stats">
+      <span>Turn: <span id="turncount">0</span></span>
+      <ol id="log"></ol>
+    </div>
+    <div id="turnsquare"></div>
+  </body>
+</html>

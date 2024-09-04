@@ -1,0 +1,35 @@
+body {
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #0f0;
+  }
+
+  #gameBoard {
+    width: 40%;
+  }
+
+  #stats {
+    width: fit-content;
+    min-width: 250px;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  #stats * {
+    margin: 5px;
+  }
+  #log {
+    overflow-y: auto;
+    height: 100%;
+    margin: 0;
+  }
